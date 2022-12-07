@@ -1,0 +1,48 @@
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 1207px){
+    .quangcao-left{
+        display: none;
+    }
+
+    .quangcao-right{
+        display: none;
+    }
+    
+    .slider {
+        border: none;
+    }
+    .hidden-box {
+        display:flex;
+        justify-content: space-around;
+    }
+    
+    .hidden {
+        display: block;
+    }
+
+}
+
+/* Mobile */
+@media (max-width : 46.1975em){
+    .quangcao-left{
+        display: none;
+    }
+
+    .quangcao-right{
+        display: none;
+    }
+
+    .hidden-box {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hidden-box hr {
+        width: 100%;
+    }
+    .hidden {
+        display: block;
+    }
+    
+}

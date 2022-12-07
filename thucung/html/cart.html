@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <title>Giỏ hàng</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <aside class="col-lg-9">
+                <div class="card">
+                    <div class="table-responsive">
+                        <table class="table table-borderless table-shopping-cart">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Các loại chó, mèo</th>
+                                    <th scope="col" width="120">Số lượng</th>
+                                    <th scope="col" width="120">Giá</th>
+                                    <th scope="col" class="text-right d-none d-md-block" width="200px"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <figure class="itemside">
+                                            <div>
+                                                <img src="https://sieupet.com/sites/default/files/phoc_soc_0.jpg"
+                                                    class="img-sm">
+                                            </div>
+                                            <figcaption class="info">
+                                                <a href="#" class="title">Chó Phốc Sóc</a>
+                                                <p class="text-muted small">Nguồn gốc: Ba Lan, Đức</p>
+                                            </figcaption>
+                                        </figure>
+                                    </td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <div class="price">5.000.000 VNĐ</div>
+                                    </td>
+                                    <td class="text-right d-none d-md-block">
+                                        <a data-original-title="Save to Wishlist" title="" href=""
+                                            class="btn btn-light"> <i class="fa fa-heart"></i></a>
+                                        <a href="" class="btn btn-light" data-abc="true"> Remove</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <figure class="itemside">
+                                            <div>
+                                                <img src="https://thucanh.net/wp-content/webpc-passthru.php?src=https://thucanh.net/wp-content/uploads/2021/02/anh-cho-alaska52.jpg&nocache=1"
+                                                    class="img-sm">
+                                            </div>
+                                            <figcaption class="info">
+                                                <a href="#" class="title">Chó Alaska</a>
+                                                <p class="text-muted small">Nguồn gốc: Mỹ</p>
+                                            </figcaption>
+                                        </figure>
+                                    </td>
+                                    <td> <select class="form-control">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select> </td>
+                                    <td>
+                                        <div class="price"> 3.000.000 VNĐ </div>
+                                    </td>
+                                    <td class="text-right d-none d-md-block"> <a data-original-title="Save to Wishlist"
+                                            title="" href="" class="btn btn-light" data-toggle="tooltip"
+                                            data-abc="true"> <i class="fa fa-heart"></i></a> <a href=""
+                                            class="btn btn-light btn-round" data-abc="true"> Remove</a> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <figure class="itemside">
+                                            <div>
+                                                <img src="https://azpet.b-cdn.net/wp-content/uploads/2021/06/M12113-1.jpg"
+                                                    class="img-sm">
+                                            </div>
+                                            <figcaption class="info">
+                                                <a href="#" class="title">Mèo Sphynx</a>
+                                                <p class="small text-muted">Nguồn gốc: Canada, Mexico</p>
+                                            </figcaption>
+                                        </figure>
+                                    </td>
+                                    <td> <select class="form-control">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select> </td>
+                                    <td>
+                                        <div class="price">6.000.000 VNĐ</div>
+                                    </td>
+                                    <td class="text-right d-none d-md-block"> <a data-original-title="Save to Wishlist"
+                                            title="" href="" class="btn btn-light" data-toggle="tooltip"
+                                            data-abc="true"> <i class="fa fa-heart"></i></a> <a href=""
+                                            class="btn btn-light btn-round" data-abc="true"> Remove</a> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </aside>
+            <aside class="col-lg-3">
+                <div class="card">
+                    <dl class="dlist-align">
+                        <dt>Tổng tiền: </dt>
+                        <dd class="text-right ml-3">$10.000.000 VNĐ</dd>
+                    </dl>
+                    <dl class="dlist-align">
+                        <dt>Giảm giá: </dt>
+                        <dd class="text-right text-danger ml-3">- 5%</dd>
+                    </dl>
+                    <dl class="dlist-align">
+                        <dt>Tổng tiền: </dt>
+                        <dd class="text-right text-dark b ml-3"><strong>9.500.000 VNĐ</strong></dd>
+                    </dl>
+                    <hr>
+                    <a href="#" class="btn btn-out btn-primary btn-square btn-main" data-abc="true">Thanh toán</a>
+                    <a href="/index.html"
+                        class="btn btn-out btn-success btn-square btn-main mt-2" data-abc="true">Quay
+                        về trang chủ</a>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+
+</html>

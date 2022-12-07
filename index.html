@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cuahangthucung</title>
+    <link rel="stylesheet" href="./thucung/css/main.css">
+    <link rel="stylesheet" href="./thucung/css/responsive.css">
+    <link rel="stylesheet" href="./thucung/css/popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div id="toast"></div>
+    <header class="heading">
+        <div class="heading__logo">
+            <a href="./index.html">
+                <img class="heading__logo-pet" src="./thucung/img/logo/logo.jpg" alt="">
+            </a>
+        </div>
+        <form action="" class="heading__form-search">
+            <div class="heading__form-container">
+                <input class="form-container__input" type="text" placeholder="Tìm kiếm">
+                <button class="form-container__btn">
+                    <i class="fas fa-search form-container__icon"></i>
+                </button>
+            </div>
+        </form>
+
+        <ul class="heading__right">
+            <li>
+                <div class="cartNumber"></div>
+                <button class="heading__right-btn">
+                    <a href="./thucung/html/cartKO.html">
+                        <i class="fas fa-shopping-cart heading__right-icon"></i>
+                    </a>
+                </button>
+            </li>
+            <li><a class="dang-nhap" href="./thucung/html/dangNhap.html">ĐĂNG
+                    NHẬP</a></li>
+        </ul>
+    </header>
+
+    <nav class="nav">
+        <input type="checkbox" id="nav_checkbox">
+        <label for="nav_checkbox" class="icon--responsive"><i class=" fas
+                    fa-bars"></i></label>
+        <ul class="nav__menu">
+            <li class="menu__item">
+                <a class="text" href="./index.html"><i style="margin-left:
+                            5px;margin-right: 5px;opacity: 0.5;" class="fa-solid
+                            fa-house"></i>Trang Chủ</a>
+            </li>
+            <li class="menu__item">
+                <a class="text" href="">Mua chó cảnh <i class="fas
+                            fa-angle-down"></i></a>
+                <div class="menu__child muachocanh">
+                    <div class="menu__child-item">
+                        <ul class="menu__list">
+                            <li> <a href=""> Chó Akita </a> </li>
+                            <li> <a href=""> Chó Alaska </a> </li>
+                            <li> <a href=""> Chó Bull Pháp </a> </li>
+                            <li> <a href=""> Chó Chow Chow </a> </li>
+                            <li> <a href=""> Chó Corgi </a> </li>
+                            <li> <a href=""> Chó Golden </a> </li>
+                            <li> <a href=""> Chó Husky </a> </li>
+                            <li> <a href=""> Chó Labrador </a> </li>
+                            <li> <a href=""> Chó Phốc Sóc Pomeranian </a>
+                            </li>
+                            <li> <a href=""> Chó Poodle </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li class="menu__item">
+                <a class="text" href="#">Mua mèo cảnh <i class="fas
+                            fa-angle-down"></i></a>
+                <div class="menu__child muameocanh">
+                    <div class="menu__child-item">
+                        <ul class="menu__list">
+                            <li> <a href=""> Mèo Anh lông ngắn</a> </li>
+                            <li> <a href=""> Mèo Anh lông dài</a> </li>
+                            <li> <a href=""> Mèo Ba Tư</a> </li>
+                            <li> <a href=""> Mèo Bengal</a> </li>
+                            <li> <a href=""> Mèo Munchkin chân ngắn</a>
+                            </li>
+                            <li> <a href=""> Mèo Scottish tai cụp</a> </li>
+                            <li> <a href=""> Mèo Ragdoll</a> </li>
+                            <li> <a href=""> Mèo Xiêm</a> </li>
+                            <li> <a href=""> Mèo Maine Coon</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li class="menu__item">
+                <a class="text" href="./thucung/html/dieukhoan.html">Giới
+                    thiệu</a>
+            </li>
+        </ul>
+
+        <label for="nav_checkbox" class="nav__overlay"></label>
+        <div class="nav-menu--responsive">
+            <ul class="nav-menu__list">
+                <li class="menu__item">
+                    <a class="text" href="./index.html"><i style="margin-left: 5px;margin-right:
+                                5px;opacity: 0.5;" class="fa-solid fa-house"></i>Trang
+                        Chủ</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="">MUA CHÓ CẢNH</a>
+                    <i style="margin-left: 5px; opacity: 0.5;" class="fas
+                            fa-angle-down nav_icon--responsive "></i>
+                </li>
+                <li class="nav-menu__item hidden ">
+                    <div class="menu_child2">
+                        <ul>
+                            <li><a href="#"> Chó Bull Pháp </a> </li>
+                            <li> <a href="#"> Chó Chow Chow </a> </li>
+                            <li> <a href="#"> Chó Corgi </a> </li>
+                            <li> <a href="#"> Chó Golden </a> </li>
+                            <li> <a href="#"> Chó Husky </a> </li>
+                            <li> <a href="#"> Chó Labrador </a> </li>
+                            <li> <a href="#"> Chó Phốc Sóc Pomeranian </a>
+                            </li>
+                            <li> <a href="#"> Chó Poodle </a> </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-menu__item">
+                    <a href="">MUA MÈO CẢNH</a>
+                    <i style="margin-left: 5px; opacity: 0.5;" class="fas
+                            fa-angle-down nav_icon--responsive "></i>
+                </li>
+
+                <li class="nav-menu__item hidden ">
+                    <div class="menu_child2">
+                        <ul>
+                            <li> <a href="#"> Mèo Anh lông ngắn</a> </li>
+                            <li> <a href="#"> Mèo Anh lông dài</a> </li>
+                            <li> <a href="#"> Mèo Ba Tư</a> </li>
+                            <li> <a href="#"> Mèo Bengal</a> </li>
+                            <li> <a href="#"> Mèo Munchkin chân ngắn</a>
+                            </li>
+                            <li> <a href="#"> Mèo Scottish tai cụp</a> </li>
+                            <li> <a href="#"> Mèo Ragdoll</a> </li>
+                            <li> <a href="#"> Mèo Xiêm</a> </li>
+                            <li> <a href="#"> Mèo Maine Coon</a> </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-menu__item">
+                    <a href="./thucung/html/dieukhoan.html">GIỚI THIỆU</a>
+                    <i style="margin-left: 5px; opacity: 0.5;" class="fas
+                            fa-angle-down nav_icon--responsive "></i>
+                </li>
+            </ul>
+        </div>
+        <label for="nav_checkbox" class="nav_icon-close"><i class="fas
+                    fa-times"></i></label>
+    </nav>
+
+    <main>
+        <div class="main-slider">
+            <div class="main-slider__left">
+                <div class="quangcao-left">
+                    <p>Hỗ Trợ Khách Hàng</p>
+                    <ul class="quangcao-left__list">
+                        <li><a href="./thucung/html/huongdanmuahang.html">Hướng
+                                dẫn mua hàng</a></li>
+                        <li><a href="./thucung/html/dieukhoan.html">Điều
+                                khoản và điều kiện</a></li>
+                        <li><a href="./thucung/html/chinhsachthanhtoan.html">Chính
+                                sách thanh toán</a></li>
+                        <li><a href="./thucung/html/chinhsachdoitra.html">Chính
+                                sách đổi trả</a></li>
+                        <li><a href="./thucung/html/baohanh.html">Chính sách
+                                bảo hành</a></li>
+                        <li><a href="./thucung/html/chatluongdv.html">Chất
+                                lượng dịch vụ</a></li>
+                    </ul>
+                </div>
+
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <div class="slide first">
+                            <img src="./thucung/img/slider-img/dogcat111-1280.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./thucung/img/slider-img/dogcat1111-1280.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./thucung/img/slider-img/corgi1-1280.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./thucung/img/slider-img/dog111-1280.jpg" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="manual-checked">
+                        <label class="manual-checked__btn btn1" for="radio1"></label>
+                        <label class="manual-checked__btn btn2" for="radio2"></label>
+                        <label class="manual-checked__btn btn3" for="radio3"></label>
+                        <label class="manual-checked__btn btn4" for="radio4"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="quangcao-right">
+                <p class="quangcao-right__text">Chất Lượng Là Chính</p>
+                <div class="quangcao-right__col">
+                    <div>
+                        <div class="quangcao-right__box">
+
+                            <div class="quangcao-right__icon">
+                                <i class="fas fa-truck "></i>
+                            </div>
+                            <p class="quangcao-right__title">Miễn phí giao
+                                hàng</p>
+
+                        </div>
+                        <div class="quangcao-right__box">
+
+                            <div class="quangcao-right__icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <p class="quangcao-right__title">Hỗ trợ khách
+                                hàng 24/7</p>
+
+                        </div>
+                    </div>
+                    <div>
+
+                        <div class="quangcao-right__box">
+                            <div class="quangcao-right__icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <p class="quangcao-right__title">Bảo hành dài
+                                hạn</p>
+
+                        </div>
+
+                        <div class="quangcao-right__box">
+
+                            <div class="quangcao-right__icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <p class="quangcao-right__title">Yên tâm về sức
+                                khỏe</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <hr>
+
+                <div class="quangcao-right__box-bot">
+
+                    <div class="quangcao-right__icon-bot">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <div class="quangcao-right__title-bot">
+                        <p>Dịch vụ CSKH chu đáo </p>
+                        <p>Hotline: 0399.999.999</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-info--up hidden"></div>
+        <div class="hidden-box">
+            <div class="quangcao-left--responsive">
+                <p>Hỗ Trợ Khách Hàng</p>
+                <ul class="quangcao-left__list">
+                    <li><a href="./html/huongdanmuahang.html">Hướng dẫn mua
+                            hàng</a></li>
+                    <li><a href="./html/dieukhoan.html">Điều khoản và điều
+                            kiện</a></li>
+                    <li><a href="./html/chinhsachthanhtoan.html">Chính sách
+                            thanh toán</a></li>
+                    <li><a href="./html/chinhsachdoitra.html">Chính sách đổi
+                            trả</a></li>
+                    <li><a href="./html/baohanh.html">Chính sách bảo hành</a></li>
+                    <li><a href="./html/chatluongdv.html">Chất lượng dịch vụ</a></li>
+                </ul>
+            </div>
+            <div class="quangcao-right--responsive">
+
+                <p class="quangcao-right__text">Chất Lượng Là Chính</p>
+                <div class="quangcao-right__col">
+                    <div>
+                        <div class="quangcao-right__box">
+
+                            <div class="quangcao-right__icon">
+                                <i class="fas fa-truck "></i>
+                            </div>
+                            <p class="quangcao-right__title">Miễn phí giao
+                                hàng</p>
+
+                        </div>
+                        <div class="quangcao-right__box">
+
+                            <div class="quangcao-right__icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <p class="quangcao-right__title">Hỗ trợ khách
+                                hàng 24/7</p>
+
+                        </div>
+                    </div>
+                    <div>
+
+                        <div class="quangcao-right__box">
+                            <div class="quangcao-right__icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <p class="quangcao-right__title">Bảo hành dài
+                                hạn</p>
+
+                        </div>
+
+                        <div class="quangcao-right__box">
+
+                            <div class="quangcao-right__icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <p class="quangcao-right__title">Yên tâm về sức
+                                khỏe</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <hr>
+
+                <div class="quangcao-right__box-bot">
+
+                    <div class="quangcao-right__icon-bot">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <div class="quangcao-right__title-bot">
+                        <p>Dịch vụ CSKH chu đáo </p>
+                        <p>Hotline: 0399.999.999</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="nav-info--down hidden"></div>
+
+
+        <div class="nav-info--up ">
+            <p>Sản Phẩm Bán Chạy</p>
+        </div>
+
+        <div class="topSale">
+            <div class="topSale__slider">
+                <div class="topSale__slides">
+                    <input type="radio" name="radioL" id="left">
+                    <input type="radio" name="radioR" id="right">
+
+                    <div class="topSale__slide ">
+                        <a href=""><img
+                                src="https://dogily.vn/wp-content/uploads/2021/09/dan-4-meo-scottish-tai-cup-mau-silver-20-250x300.jpg"
+                                alt=""></a>
+                        <div class="slide__text">
+                            <p>Mèo</p>
+                            <p>Scottish Silver tai cụp</p>
+                        </div>
+                    </div>
+
+                    <div class="topSale__slide">
+                        <a href=""> <img
+                                src="https://dogily.vn/wp-content/uploads/2021/09/doi-meo-munchkin-long-dai-bicolor-xam-xanh-1-250x300.jpg"
+                                alt=""></a>
+                        <div class="slide__text">
+                            <p>Mèo</p>
+                            <p>Munchkin Bicolor, xám xanh lông dài</p>
+                        </div>
+                    </div>
+
+                    <div class="topSale__slide">
+                        <a href=""> <img
+                                src="https://dogily.vn/wp-content/uploads/2021/09/meo-munchkin-scottish-chan-ngan-tai-cip-bicolor-3-510x340.jpg"
+                                alt=""></a>
+                        <div class="slide__text">
+                            <p>Mèo</p>
+                            <p>Munchkin Bicolor tai cụp</p>
+                        </div>
+                    </div>
+
+                    <div class="topSale__slide">
+                        <a href="#">
+                            <img src="https://dogily.vn/wp-content/uploads/2020/03/meo-golden-tai-cup-ny25-1-250x300.jpeg"
+                                alt="">
+                        </a>
+                        <div class="slide__text">
+                            <p>Mèo</p>
+                            <p>Scottish Golden Ny 25</p>
+                        </div>
+                    </div>
+
+                    <div class="topSale__slide">
+                        <a href=""><img
+                                src="https://dogily.vn/wp-content/uploads/2021/09/meo-scottish-fold-tai-cup-cai-nhap-khau-8-250x300.jpg"
+                                alt=""></a>
+                        <div class="slide__text">
+                            <p>Mèo</p>
+                            <p>Scottish Van tai cụp </p>
+                        </div>
+                    </div>
+
+                    <div class="topSale__slide">
+                        <a href=""><img
+                                src="https://dogily.vn/wp-content/uploads/2021/10/meo-anh-long-ngan-nhap-khau-17-250x300.jpg"
+                                alt=""></a>
+                        <div class="slide__text">
+                            <p>Mèo</p>
+                            <p>Anh Lông Ngắn Xám Xanh</p>
+                        </div>
+                    </div>
+                    <div class="topSale__slide">
+                        <a href="">
+                            <img src="https://dogily.vn/wp-content/uploads/2021/09/meo-munchkin-bicolor-4-thang-1-250x300.jpg"
+                                alt="">
+                        </a>
+                        <div class="slide__text">
+                            <p>Mèo</p>
+                            <p>Munchkin Bicolor</p>
+                        </div>
+                    </div>
+                    <div class="topSale__slide">
+                        <a href="">
+                            <img src="https://dogily.vn/wp-content/uploads/2021/09/meo-chan-ngan-tai-cup-silver-1-250x300.jpg"
+                                alt="">
+                        </a>
+                        <div class="slide__text">
+                            <p>Mèo</p>
+                            <p>Munchkin Silver tai cụp</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <label for="left"><i class="fas fa-angle-left angle-left"></i></label>
+                <label for="right"><i class="fas fa-angle-right
+                            angle-right"></i></label>
+            </div>
+
+
+        </div>
+        <div class="nav-info--down"></div>
+
+
+
+    </main>
+
+    <hr class="hr-footer">
+    <footer class="footer">
+
+        <div class="footer__head">
+            <h1>CONTACT</h1>
+        </div>
+        <div class="footer__content">
+            <div class="footer__content-info">
+                <p><i class="fas fa-map-marker-alt"></i>Cần Thơ, Việt Nam</p>
+                <p><i class="fas fa-phone"></i>Phone: 0399.999.999</p>
+                <p><i class="fas fa-envelope"></i>Email: PetShop@gmail.com</p>
+            </div>
+            <div class="footer__content-control">
+                <div>
+                    <input type="text" placeholder="Name" class="control-input__name">
+                    <input type="text" placeholder="Email" class="control-input__email">
+                </div>
+                <div class="footer__input-msg">
+                    <input type="text" placeholder="Message" class="control-input__msg">
+                </div>
+                <div onclick="showError();" class="footer__input-submit">
+                    <input class="submit" type="submit" value="SEND">
+                </div>
+
+            </div>
+        </div>
+        <div class="footer__map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d283.7073113441093!2d105.76208864670743!3d10.021415526950912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1637253706630!5m2!1svi!2s"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="footer__icon">
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-instagram-square"></i></a>
+            <a href=""><i class="fab fa-twitter-square"></i></a>
+            <a href=""><i class="fab fa-youtube-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="./thucung/js/NextSlide.js"></script>
+    <script src="./thucung/js/popup.js"></script>
+    <script src="./thucung/js/navReponsive.js"></script>
+</body>
+
+</html>

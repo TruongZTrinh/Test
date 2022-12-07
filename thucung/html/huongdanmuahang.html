@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hướng Dẫn Mua Hàng</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/otherpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="heading"> 
+        <div class="heading__logo">
+            <a href="../../index.html">
+                <img class="heading__logo-pet" src="../img/logo/logo.jpg" alt=""  >
+            </a>
+        </div>
+        <form action="" class="heading__form-search"> 
+            <div class="heading__form-container">
+                <input class="form-container__input" type="text" placeholder="Tìm kiếm">
+                <button class="form-container__btn">
+                      <i class="fas fa-search form-container__icon"></i>
+                </button>
+            </div>
+        </form>
+
+        <ul class="heading__right">
+            <li>
+                <div class="cartNumber"></div>
+                <button class="heading__right-btn">
+                 <i class="fas fa-shopping-cart heading__right-icon"></i>
+                </button>
+            </li>
+            <li><a class="dang-nhap" href="./dangnhap.html">ĐĂNG NHẬP</a></li>
+        </ul>
+    </header>    
+
+    <nav class="nav">
+        <input type="checkbox" id="nav_checkbox">
+        <label for="nav_checkbox" class="icon--responsive"><i class=" fas fa-bars"></i></label>
+        <ul class="nav__menu">
+            <li class="menu__item">
+                <a class="text" href="../../index.html"><i style="margin-left: 5px;margin-right: 5px;opacity: 0.5;" class="fa-solid fa-house"></i>Trang Chủ</a>
+            </li>
+
+            <li class="menu__item">
+                <a class="text" href="">Mua chó cảnh <i class="fas fa-angle-down"></i></a>
+                    <div class="menu__child muachocanh">
+                        <div class="menu__child-item">
+                                <ul class="menu__list">
+                                    <li> <a href=""> Chó Akita </a> </li>
+                                    <li> <a href=""> Chó Alaska </a> </li>
+                                    <li> <a href=""> Chó Bull Pháp </a> </li>
+                                    <li> <a href=""> Chó Chow Chow </a> </li>
+                                    <li> <a href=""> Chó Corgi </a> </li>
+                                    <li> <a href=""> Chó Golden </a> </li>
+                                    <li> <a href=""> Chó Husky </a> </li>
+                                    <li> <a href=""> Chó Labrador </a> </li>
+                                    <li> <a href=""> Chó Phốc Sóc Pomeranian </a> </li>
+                                    <li> <a href=""> Chó Poodle </a> </li> 
+                                </ul>
+                        </div>   
+                        
+                        
+                    </div>          
+            </li>
+            
+            <li class="menu__item">
+                <a class="text" href="">Mua mèo cảnh <i class="fas fa-angle-down"></i></a>
+                <div class="menu__child muameocanh">
+                    <div class="menu__child-item">
+                            <ul class="menu__list">
+                                    <li> <a href=""> Mèo Anh lông ngắn</a> </li>
+                                    <li> <a href=""> Mèo Anh lông dài</a> </li>
+                                    <li> <a href=""> Mèo Ba Tư</a> </li>
+                                    <li> <a href=""> Mèo Bengal</a> </li>
+                                    <li> <a href=""> Mèo Munchkin chân ngắn</a> </li>
+                                    <li> <a href=""> Mèo Scottish tai cụp</a> </li>
+                                    <li> <a href=""> Mèo Ragdoll</a> </li>
+                                    <li> <a href=""> Mèo Xiêm</a> </li>
+                                    <li> <a href=""> Mèo Maine Coon</a> </li>
+                            </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li class="menu__item">
+                <a class="text" href="./dieukhoan.html">Giới thiệu</a>
+            </li>
+        </ul>
+
+        <label for="nav_checkbox" class="nav__overlay"></label>
+        <div class="nav-menu--responsive">
+            <ul class="nav-menu__list">
+                <li class="menu__item">
+                    <a class="text" href="../../index.html"><i style="margin-left: 5px;margin-right: 5px;opacity: 0.5;" class="fa-solid fa-house"></i>Trang Chủ</a>
+                </li>
+
+                <li class="nav-menu__item">
+                    <a href="">MUA CHÓ CẢNH </a>
+                    <i style="margin-left: 5px; opacity: 0.5;"
+                        class="fas fa-angle-down nav_icon--responsive "></i>
+                </li>
+                <li class="nav-menu__item  hidden">
+                    <div class="menu_child2">
+                        <ul>
+                            <li><a href=""> Chó Bull Pháp </a> </li>
+                            <li> <a href=""> Chó Chow Chow </a> </li>
+                            <li> <a href=""> Chó Corgi </a> </li>
+                            <li> <a href=""> Chó Golden </a> </li>
+                            <li> <a href=""> Chó Husky </a> </li>
+                            <li> <a href=""> Chó Labrador </a> </li>
+                            <li> <a href=""> Chó Phốc Sóc Pomeranian </a> </li>
+                            <li> <a href=""> Chó Poodle </a> </li>
+                            
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-menu__item">
+                    <a href="">MUA MÈO CẢNH</a>
+                    <i style="margin-left: 5px; opacity: 0.5;"
+                        class="fas fa-angle-down nav_icon--responsive "></i>
+                </li>
+
+                <li class="nav-menu__item  hidden">
+                    <div class="menu_child2">
+                        <ul>
+                            <li> <a href=""> Mèo Anh lông ngắn</a> </li>
+                            <li> <a href=""> Mèo Anh lông dài</a> </li>
+                            <li> <a href=""> Mèo Ba Tư</a> </li>
+                            <li> <a href=""> Mèo Bengal</a> </li>
+                            <li> <a href=""> Mèo Munchkin chân ngắn</a> </li>
+                            <li> <a href=""> Mèo Scottish tai cụp</a> </li>
+                            <li> <a href=""> Mèo Ragdoll</a> </li>
+                            <li> <a href=""> Mèo Xiêm</a> </li>
+                            <li> <a href=""> Mèo Maine Coon</a> </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-menu__item">
+                    <a href="./dieukhoan.html">Giới thiệu</a>
+                </li>
+
+
+            </ul>
+        </div>
+        <label for="nav_checkbox" class="nav_icon-close"><i class="fas fa-times"></i></label>
+
+
+
+    </nav>
+        
+    <main>
+        <div class="container__instruction ">
+            <div class="container__instruction--description">
+                <p>Bên cạnh việc đến trực tiếp các cửa hàng, trang trại thuộc hệ thống của Dogily Petshop trên toàn quốc. Bạn có thể lựa chọn cách mua hàng online bằng cách chọn một trong những cách mua hàng sau:</p>
+            </div>
+
+            <div class="container__instruction--wayslist">
+                <div class="first-way">
+                    <p><strong>Cách 1: </strong>Gọi điện thoại đến số hotline (<a href="tel:+0965086079">0965.086.079</a>) hoặc (<a href="tel:+0916299911">0916.299.911</a>) từ 8h00-22h (cả CN & ngày lễ) để đặt mua thú cưng (chó, mèo, chim, cá, bò sát cảnh, đội ngũ nhân viên của Dogily Petshop luôn sẵn sáng phục vụ, tư vấn cũng như hỗ trợ quý khách mua được thú cưng và phụ kiện như ý.</p>
+                </div>
+
+                <div class="second-way">
+                    <p><strong>Cách 2: </strong> Bạn cũng có thể đặt mua hàng online trên website <a href="../../index.html">petshop.vn</a> theo các bước sau:</p>
+                    <div class="step1">
+                        <h3>Bước 1: Tìm loại thú cưng hoặc phụ kiện bạn cần mua</h3>
+                        <p class="step1-description">
+                            Bạn có thể truy cập website <a href="../../index.html">petshop.vn</a> để tìm và chọn loại thú cưng và phụ kiện vật nuôi muốn mua bằng nhiều cách:
+                        </p>
+
+                        <ul>
+                            <li> Sử dụng ô tìm kiếm phía trên, gõ tên sản phẩm muốn mua (có thể tìm đích danh 1 từng loại thú cưng như chó, mèo, chim, cá cảnh, tìm theo chủng loại sản phẩm, từ khóa liên quan…). Trang web dogily.vn của chúng tôi sẽ cung cấp cho bạn những gợi ý chính xác để lựa chọn:</li>
+                            <li> Trên website <a href="../../index.html">petshop.vn</a> luôn có sẵn những gợi ý sản phẩm nổi bật nhất, có chương trình khuyến mãi, chiết khấu hấp dẫn. Bạn cũng có thể chọn xem ngay mà không cần sử dụng ô tìm kiếm:</li>
+                            <li> Bạn có thể sử dụng menu sản phẩm của trang web: chọn loại sản phẩm muốn mua là chó cảnh, mèo cảnh, thú cưng đang bán, phụ kiện thú cưng…</li>
+                        </ul>
+
+                        <p>
+                            Bước tiếp theo là tuỳ thuộc nhu cầu mua hàng. Bạn có thể sàng lọc các loại thú cưng và phụ kiện theo các tiêu chí về giá từ cao đến thấp hoặc ngược lại, lọc sản phẩm theo chủng loại thú cưng, lọc các sản phẩm đang có chương trình, khuyến mãi hoặc trả góp 0%….
+                        </p>
+                    </div>
+
+                    <div class="step2">
+                        <h3>Bước 2: Đặt mua sản phẩm</h3>
+                        <p class="step2-description">
+                            Sau khi chọn được loại thú cưng hoặc sản phẩm phụ kiện vật nuôi ưng ý muốn mua, quý khách hàng có thể tiến hành đặt mua bằng cách:
+                        </p>
+
+                        <ul>
+                            <li> Chọn vào nút THÊM VÀO GIỎ nếu bạn muốn thanh toán luôn toàn bộ giá tiền sản phẩm. Website sẽ hiện ra giao diện thanh toán. Kiểm tra kỹ thông tin về giá tiền, số lượng sản phẩm và tổng giá trị thanh toán.</li>
+                            <li> Nếu tất cả các thông tin đều phù hợp, bạn nhấn tiếp vào nút TIẾN HÀNH THANH TOÁN</li>
+                            <li> Điền đầy đủ các thông tin mua hàng theo các bước trên website, sau đó chọn hình thức nhận hàng là giao hàng tận nơi hay đến hệ thống cửa hàng của Dogily nhận sản phẩm, chọn hình thức thanh toán là chuyển khoản ngân hàng hay thanh toán online (bằng thẻ ATM, VISA hay MasterCard) và hoàn tất đặt hàng.</li>
+                            <li> Ngoài ra, nếu bạn đang sở hữu phiếu mua hàng, mã giảm giá… thì vui lòng nhập trong bước đặt hàng để được giảm giá theo các bước tại hướng dẫn: Cách sử dụng phiếu mua hàng. Sau khi đặt hàng thành công, Dogily Petshop sẽ liên hệ với bạn để xác nhận và hoàn tất thủ tục đặt hàng.</li>
+                            <li> Sau khi đặt hàng thành công, Dogily Petshop sẽ liên hệ với bạn để xác nhận và hoàn tất thủ tục đặt hàng.</li>
+                        </ul>
+
+                        <p>
+                            Bên cạnh đó, để mua hàng tại Dogily Petshop, bạn còn có thể để lại bình luận tại bất kì đâu trên website (có thông tin tên, số điện thoại…), hoặc trực tiếp chat với nhân viên tư vấn của công ty để được hỗ trợ và đặt mua sản phẩm. Hoặc trao đổi qua các mạng xã hội Youtube, Facebook, Zalo… được tích hợp sẵn trên giao diện website.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container__instruction--note">
+                <h3>Lưu ý:</h3>
+                <ol>
+                    <li>Dogily Petshop chỉ chấp nhận những đơn đặt hàng khi cung cấp đủ thông tin chính xác về địa chỉ, số điện thoại của người đặt hàng. Ngay sau khi khách hàng đặt hàng, Dogily Petshop sẽ liên lạc lại để kiểm tra thông tin và thỏa thuận thêm những điều khoản về giao nhận, thanh toán, bảo hành có liên quan.</li>
+                    <li>Do mặt hàng là động vật sống. Vì vậy, thời gian giao nhận có thể thay đổi. Đặc biệt là đối với việc vận chuyển bằng đường hàng không. Hoặc do giá trị đơn hàng khá lớn và thời gian giao hàng vào buổi tối. Hay do địa chỉ giao hàng trong ngõ và có thể dẫn đến nguy hiểm. Nhân viên có trách nhiệm của Dogily Petshop sẽ chủ động liên lạc với quý khách để thống nhất lại thời gian giao hàng thực tế.</li>
+                    <li>Trong một số trường hợp nếu Dogily Petshop giao hàng chậm trễ mà không thông báo trước cho khách hàng. Bạn có quyền từ chối không nhận hàng và Dogily Petshop sẽ có trách nhiệm hoàn trả toàn bộ số tiền mà khách hàng đã thanh toán (nếu có) trong vòng 1 tuần kể từ thời điểm thống nhất giao hàng.</li>
+                    <li>Công ty Cổ phần Dogily Việt nam cam kết tất cả các loại thú cưng, phụ kiện vật nuôi gửi tới khách hàng đều thuần chủng, có giấy tờ đầy đủ đối với vật nuôi và hàng chính hãng 100% đối với các sản phẩm hàng hóa, phụ kiện khác. Trong quá trình vận chuyển, nếu phát sinh hư hỏng, rủi ro do va chạm, mưa ướt, tai nạn giao thông.. dẫn tới hàng hóa bị hư hại, thú cưng bị bệnh, chết. Xin bạn vui lòng kiểm tra kỹ trước khi ký nhận. Dogily Petshop sẽ không chịu trách nhiệm với bất kì sai lệch, hư hỏng dưới mọi hình thức của hàng hóa sau khi bạn đã ký nhận hàng hóa (vật nuôi, phụ kiện các loại)</li>
+                </ol>
+            </div>
+            <div class="quangcao-left--responsive">
+                <p>Hỗ Trợ Khách Hàng</p>
+                <ul class="quangcao-left__list">
+                    <li><a href="./huongdanmuahang.html">Hướng dẫn mua hàng</a></li>
+                    <li><a href="./dieukhoan.html">Điều khoản và điều kiện</a></li>
+                    <li><a href="./chinhsachthanhtoan.html">Chính sách thanh toán</a></li>
+                    <li><a href="./chinhsachdoitra.html">Chính sách đổi trả</a></li>
+                    <li><a href="./baohanh.html">Chính sách bảo hành</a></li>
+                    <li><a href="./chatluongdv.html">Chất lượng dịch vụ</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </main>
+
+        <hr>
+        <footer class="footer">
+            <div class="footer__head">
+                <h1>CONTACT</h1>
+            </div>
+            <div class="footer__content">
+                <div class="footer__content-info">
+                    <p><i class="fas fa-map-marker-alt"></i>Cần Thơ, Việt Nam</p>
+                    <p><i class="fas fa-phone"></i>Phone: 0399.999.999</p>
+                    <p><i class="fas fa-envelope"></i>Email: PetShop@gmail.com</p>
+                </div>
+                <div class="footer__content-control">
+                    <div >
+                        <input type="text" placeholder="Name" class="footer-control-input">
+                        <input type="text" placeholder="Email" class="footer-control-input">  
+                    </div>
+                    <div class="footer__input-msg">
+                        <input type="text" placeholder="Message" class="control-input-msg">
+                    </div>
+                    <div class="footer__input-submit">
+                          <input class="submit" type="submit" value="SEND">  
+                    </div>
+                        
+                </div> 
+            </div>
+            <div class="footer__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d283.7073113441093!2d105.76208864670743!3d10.021415526950912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1637253706630!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="footer__icon">
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-instagram-square"></i></a>
+                <a href=""><i class="fab fa-twitter-square"></i></a>
+                <a href=""><i class="fab fa-youtube-square"></i></a>
+            </div>
+
+        </footer>
+       
+        <script src="../js/NextSlide.js"></script>
+        <script src="../js/navReponsive.js"></script>
+</body>
+</html>
