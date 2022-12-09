@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <div id="toast"></div>
     <header class="heading">
         <div class="heading__logo">
@@ -34,7 +33,7 @@
             <li>
                 <div class="cartNumber"></div>
                 <button class="heading__right-btn">
-                    <a href="./thucung/html/cartKO.html">
+                    <a href="./thucung/html/cart.html">
                         <i class="fas fa-shopping-cart heading__right-icon"></i>
                     </a>
                 </button>
@@ -43,130 +42,136 @@
                     NHẬP</a></li>
         </ul>
     </header>
-
-    <nav class="nav">
-        <input type="checkbox" id="nav_checkbox">
-        <label for="nav_checkbox" class="icon--responsive"><i class=" fas
-                    fa-bars"></i></label>
-        <ul class="nav__menu">
-            <li class="menu__item">
-                <a class="text" href="./index.html"><i style="margin-left:
-                            5px;margin-right: 5px;opacity: 0.5;" class="fa-solid
-                            fa-house"></i>Trang Chủ</a>
-            </li>
-            <li class="menu__item">
-                <a class="text" href="">Mua chó cảnh <i class="fas
-                            fa-angle-down"></i></a>
-                <div class="menu__child muachocanh">
-                    <div class="menu__child-item">
-                        <ul class="menu__list">
-                            <li> <a href=""> Chó Akita </a> </li>
-                            <li> <a href=""> Chó Alaska </a> </li>
-                            <li> <a href=""> Chó Bull Pháp </a> </li>
-                            <li> <a href=""> Chó Chow Chow </a> </li>
-                            <li> <a href=""> Chó Corgi </a> </li>
-                            <li> <a href=""> Chó Golden </a> </li>
-                            <li> <a href=""> Chó Husky </a> </li>
-                            <li> <a href=""> Chó Labrador </a> </li>
-                            <li> <a href=""> Chó Phốc Sóc Pomeranian </a>
-                            </li>
-                            <li> <a href=""> Chó Poodle </a> </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
-            <li class="menu__item">
-                <a class="text" href="#">Mua mèo cảnh <i class="fas
-                            fa-angle-down"></i></a>
-                <div class="menu__child muameocanh">
-                    <div class="menu__child-item">
-                        <ul class="menu__list">
-                            <li> <a href=""> Mèo Anh lông ngắn</a> </li>
-                            <li> <a href=""> Mèo Anh lông dài</a> </li>
-                            <li> <a href=""> Mèo Ba Tư</a> </li>
-                            <li> <a href=""> Mèo Bengal</a> </li>
-                            <li> <a href=""> Mèo Munchkin chân ngắn</a>
-                            </li>
-                            <li> <a href=""> Mèo Scottish tai cụp</a> </li>
-                            <li> <a href=""> Mèo Ragdoll</a> </li>
-                            <li> <a href=""> Mèo Xiêm</a> </li>
-                            <li> <a href=""> Mèo Maine Coon</a> </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-
-            <li class="menu__item">
-                <a class="text" href="./thucung/html/dieukhoan.html">Giới
-                    thiệu</a>
-            </li>
-        </ul>
-
-        <label for="nav_checkbox" class="nav__overlay"></label>
-        <div class="nav-menu--responsive">
-            <ul class="nav-menu__list">
+    <main>
+        <nav class="nav">
+            <input type="checkbox" id="nav_checkbox">
+            <label for="nav_checkbox" class="icon--responsive"><i class=" fas fa-bars"></i></label>
+            <ul class="nav__menu">
                 <li class="menu__item">
-                    <a class="text" href="./index.html"><i style="margin-left: 5px;margin-right:
-                                5px;opacity: 0.5;" class="fa-solid fa-house"></i>Trang
-                        Chủ</a>
+                    <a class="text" href="./index.html"><i style="margin-left: 5px; margin-right: 5px; opacity: 0.5;"
+                            class="fa-solid fa-house"></i>Trang Chủ</a>
                 </li>
-                <li class="nav-menu__item">
-                    <a href="">MUA CHÓ CẢNH</a>
-                    <i style="margin-left: 5px; opacity: 0.5;" class="fas
-                            fa-angle-down nav_icon--responsive "></i>
-                </li>
-                <li class="nav-menu__item hidden ">
-                    <div class="menu_child2">
-                        <ul>
-                            <li><a href="#"> Chó Bull Pháp </a> </li>
-                            <li> <a href="#"> Chó Chow Chow </a> </li>
-                            <li> <a href="#"> Chó Corgi </a> </li>
-                            <li> <a href="#"> Chó Golden </a> </li>
-                            <li> <a href="#"> Chó Husky </a> </li>
-                            <li> <a href="#"> Chó Labrador </a> </li>
-                            <li> <a href="#"> Chó Phốc Sóc Pomeranian </a>
-                            </li>
-                            <li> <a href="#"> Chó Poodle </a> </li>
-                        </ul>
+                <li class="menu__item">
+                    <a class="text" href="">Mua chó cảnh <i class="fas
+                                fa-angle-down"></i></a>
+                    <div class="menu__child muachocanh">
+                        <div class="menu__child-item">
+                            <ul class="menu__list">
+                                <li><img src="thucung/img/cho/akita5_0.jpg" width="50px" height="40px"> <a href=""> Chó
+                                        Akita </a> </li>
+                                <li><img src="thucung/img/cho/alaskan.jpg" width="50px" height="40px"> <a href=""> Chó
+                                        Alaska </a> </li>
+                                <li><img src="thucung/img/cho/bull phap.jpg" width="50px" height="40px"> <a href=""> Chó
+                                        Bull Pháp </a> </li>
+                                <li><img src="thucung/img/cho/chow chow.jpg" width="50px" height="40px"> <a href=""> Chó
+                                        Chow Chow </a> </li>
+                                <li><img src="thucung/img/cho/cho-corgi.jpg" width="50px" height="40px"> <a href=""> Chó
+                                        Corgi </a> </li>
+                                <li><img src="thucung/img/cho/golden.jpg" width="50px" height="40px"> <a href=""> Chó
+                                        Golden </a> </li>
+                                <li><img src="thucung/img/cho/husky.jpg" width="50px" height="40px"> <a href=""> Chó
+                                        Husky </a> </li>
+                                <li><img src="thucung/img/cho/labrador.jpg" width="50px" height="40px"> <a href=""> Chó
+                                        Labrador </a> </li>
+                            </ul>
+                        </div>
                     </div>
                 </li>
 
-                <li class="nav-menu__item">
-                    <a href="">MUA MÈO CẢNH</a>
-                    <i style="margin-left: 5px; opacity: 0.5;" class="fas
-                            fa-angle-down nav_icon--responsive "></i>
-                </li>
-
-                <li class="nav-menu__item hidden ">
-                    <div class="menu_child2">
-                        <ul>
-                            <li> <a href="#"> Mèo Anh lông ngắn</a> </li>
-                            <li> <a href="#"> Mèo Anh lông dài</a> </li>
-                            <li> <a href="#"> Mèo Ba Tư</a> </li>
-                            <li> <a href="#"> Mèo Bengal</a> </li>
-                            <li> <a href="#"> Mèo Munchkin chân ngắn</a>
-                            </li>
-                            <li> <a href="#"> Mèo Scottish tai cụp</a> </li>
-                            <li> <a href="#"> Mèo Ragdoll</a> </li>
-                            <li> <a href="#"> Mèo Xiêm</a> </li>
-                            <li> <a href="#"> Mèo Maine Coon</a> </li>
-                        </ul>
+                <li class="menu__item">
+                    <a class="text" href="#">Mua mèo cảnh <i class="fas
+                                fa-angle-down"></i></a>
+                    <div class="menu__child muameocanh">
+                        <div class="menu__child-item">
+                            <ul class="menu__list">
+                                <li><img src="thucung/img/meo/Anhlongngan.jpg" width="50px" height="40px"> <a href="">
+                                        Mèo Anh lông ngắn</a> </li>
+                                <li><img src="thucung/img/meo/meo-anh-long-dai.jpg" width="50px" height="40px"> <a
+                                        href=""> Mèo Anh lông dài</a> </li>
+                                <li><img src="thucung/img/meo/meo-ba-tu.jpg" width="50px" height="40px"> <a href=""> Mèo
+                                        Ba Tư</a> </li>
+                                <li><img src="thucung/img/meo/gia_meo_bengal.png" width="50px" height="40px"> <a
+                                        href=""> Mèo Bengal</a> </li>
+                                <li><img src="thucung/img/meo/meo-munchkin-chan-ngan.jpg" width="50px" height="40px"> <a
+                                        href=""> Mèo Munchkin chân ngắn</a> </li>
+                                <li><img src="thucung/img/meo/meo scottish taicup.jpg" width="50px" height="40px"> <a
+                                        href=""> Mèo Scottish tai cụp</a> </li>
+                                <li><img src="thucung/img/meo/meo ragdoll.jpg" width="50px" height="40px"> <a href="">
+                                        Mèo Ragdoll</a> </li>
+                                <li><img src="thucung/img/meo/meo-xiem.jpg" width="50px" height="40px"> <a href=""> Mèo
+                                        Xiêm</a> </li>
+                            </ul>
+                        </div>
                     </div>
                 </li>
 
-                <li class="nav-menu__item">
-                    <a href="./thucung/html/dieukhoan.html">GIỚI THIỆU</a>
-                    <i style="margin-left: 5px; opacity: 0.5;" class="fas
-                            fa-angle-down nav_icon--responsive "></i>
+                <li class="menu__item">
+                    <a class="text" href="./thucung/html/dieukhoan.html">Giới thiệu</a>
                 </li>
             </ul>
-        </div>
-        <label for="nav_checkbox" class="nav_icon-close"><i class="fas
-                    fa-times"></i></label>
-    </nav>
 
-    <main>
+            <label for="nav_checkbox" class="nav__overlay"></label>
+            <div class="nav-menu--responsive">
+                <ul class="nav-menu__list">
+                    <li class="menu__item">
+                        <a class="text" href="./index.html"><i style="margin-left: 5px;margin-right:
+                                    5px;opacity: 0.5;" class="fa-solid fa-house"></i>Trang
+                            Chủ</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="">MUA CHÓ CẢNH</a>
+                        <i style="margin-left: 5px; opacity: 0.5;" class="fas
+                                fa-angle-down nav_icon--responsive "></i>
+                    </li>
+                    <li class="nav-menu__item hidden ">
+                        <div class="menu_child2">
+                            <ul>
+                                <li><a href="#"> Chó Bull Pháp </a> </li>
+                                <li> <a href="#"> Chó Chow Chow </a> </li>
+                                <li> <a href="#"> Chó Corgi </a> </li>
+                                <li> <a href="#"> Chó Golden </a> </li>
+                                <li> <a href="#"> Chó Husky </a> </li>
+                                <li> <a href="#"> Chó Labrador </a> </li>
+                                <li> <a href="#"> Chó Phốc Sóc Pomeranian </a>
+                                </li>
+                                <li> <a href="#"> Chó Poodle </a> </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-menu__item">
+                        <a href="">MUA MÈO CẢNH</a>
+                        <i style="margin-left: 5px; opacity: 0.5;" class="fas
+                                fa-angle-down nav_icon--responsive "></i>
+                    </li>
+
+                    <li class="nav-menu__item hidden ">
+                        <div class="menu_child2">
+                            <ul>
+                                <li> <a href="#"> Mèo Anh lông ngắn</a> </li>
+                                <li> <a href="#"> Mèo Anh lông dài</a> </li>
+                                <li> <a href="#"> Mèo Ba Tư</a> </li>
+                                <li> <a href="#"> Mèo Bengal</a> </li>
+                                <li> <a href="#"> Mèo Munchkin chân ngắn</a>
+                                </li>
+                                <li> <a href="#"> Mèo Scottish tai cụp</a> </li>
+                                <li> <a href="#"> Mèo Ragdoll</a> </li>
+                                <li> <a href="#"> Mèo Xiêm</a> </li>
+                                <li> <a href="#"> Mèo Maine Coon</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-menu__item">
+                        <a href="./thucung/html/dieukhoan.html">GIỚI THIỆU</a>
+                        <i style="margin-left: 5px; opacity: 0.5;" class="fas
+                                fa-angle-down nav_icon--responsive "></i>
+                    </li>
+                </ul>
+            </div>
+            <label for="nav_checkbox" class="nav_icon-close"><i class="fas
+                        fa-times"></i></label>
+        </nav>
         <div class="main-slider">
             <div class="main-slider__left">
                 <div class="quangcao-left">
@@ -457,13 +462,8 @@
                 <label for="right"><i class="fas fa-angle-right
                             angle-right"></i></label>
             </div>
-
-
         </div>
         <div class="nav-info--down"></div>
-
-
-
     </main>
 
     <hr class="hr-footer">
@@ -489,7 +489,6 @@
                 <div onclick="showError();" class="footer__input-submit">
                     <input class="submit" type="submit" value="SEND">
                 </div>
-
             </div>
         </div>
         <div class="footer__map">
